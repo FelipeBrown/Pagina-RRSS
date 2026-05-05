@@ -1,0 +1,88 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #111;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000, #1a1a1a);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  max-width: 700px;
+}
+
+.hero p {
+  margin-top: 10px;
+}
+
+/* BOTÓN */
+.btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #00ffd0;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* SECCIONES */
+section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.dark {
+  background: #1a1a1a;
+}
+
+/* GRID */
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111;
+  padding: 30px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
